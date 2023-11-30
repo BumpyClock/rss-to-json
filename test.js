@@ -7,7 +7,7 @@ const { parse, Parse } = require('./dist');
 
 
 
-    var rss = await parse('https://blog.ethereum.org/feed.xml');
+    var rss = await parse('https://www.theverge.com/rss/index.xml');
 
     //    var rss = await parse('https://medium.com/feed/@extropy-io');
 
